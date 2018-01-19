@@ -1,0 +1,1 @@
+%Frequency Response for Mass Spring Damper Systembodeoptions('cstprefs');s = tf('s');     % Define the Laplace variable sG1 = .2G2 = 1/(s^2+.1*s+.6)G = G1*G2figure(2); clf;bode(G,{0.1,1000});grid on;
